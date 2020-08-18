@@ -9,6 +9,7 @@ namespace TransacionCSharp
         public decimal Cantidad { get; set; }
         public DateTime Fecha { get; set; }
         public string Notas { get; set; }
+       
 
         public Transaccion(decimal cantidad, DateTime fecha, string notas)
         {
@@ -16,5 +17,6 @@ namespace TransacionCSharp
             this.Fecha = fecha;
             this.Notas = notas;
         }
+        
     }
 }
